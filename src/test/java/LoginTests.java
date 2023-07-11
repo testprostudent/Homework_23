@@ -13,7 +13,7 @@ public class LoginTests extends BaseTest {
 
         loginPage.login();
 
-        Assert.assertTrue(homePage .double_click().isDisplayed());
+        Assert.assertTrue(homePage.getUserAvatar().isDisplayed());
     }
 
 }
